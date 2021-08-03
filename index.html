@@ -6,6 +6,22 @@
   </head>
 
   <body>
+    <h1>Random Number Game</h1>
+
+    <form id="casino">
+      <h2>
+        <label for="setting">Generate a number between 0 and</label>
+        <input id="setting" type="number" min="0" />
+      </h2>
+      <h3>
+        <label for="conjecture">Guess the number</label>
+        <input id="conjecture" type="number" min="0" />
+        <input type="submit" value="Play!" />
+      </h3>
+    </form>
+
+    <div id="display"></div>
+    <div id="result"></div>
     <script src="src/index.js"></script>
   </body>
 </html>
